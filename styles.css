@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+.bg {
+    background: url(../beer/img/bg.jpg) center/cover;
+    width: 33%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    overflow: hidden;
+    width: 230px;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.beers {
+    position: relative;
+    margin: 0 auto;
+    width: 33%;
+    margin-top: -30px;
+    
+}
+
+
+
+.produit {
+    position: absolute;
+    width: 150px;
+    right: -250%;
+    transition: .5s all;
+}
+
+.current {
+    right: 45px;
+}
+
+.gauche {
+    right: 250%;
+}
